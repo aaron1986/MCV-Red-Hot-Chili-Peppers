@@ -10,7 +10,7 @@ function App() {
  return (
     <div>
       <img
-        src="/home/aaron/northcoders/React_Projects/db_example/frontend/src/assets/red-hot.png"
+        src="./src/assets/red-hot.png"
         alt="Red Hot Chili Peppers"
         className="top-right-image"
       />
