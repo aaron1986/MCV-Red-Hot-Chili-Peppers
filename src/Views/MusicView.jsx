@@ -18,7 +18,7 @@ export default function MusicView({ music, error }) {
               />
             )}
 
-            <p>Release type: {item.release_type.replace("_", " ")}</p>
+            <p className="p-text">Release type: {item.release_type.replace("_", " ")}</p>
             <p>Released in {item.year_released}</p>
           </div>
         ))}

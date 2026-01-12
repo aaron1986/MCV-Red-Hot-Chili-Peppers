@@ -33,3 +33,14 @@ li {
   z-index: -1;     
   pointer-events: none; 
 }
+
+.p-text {
+  font-family: pFont;
+  font-size: 25px;
+}
+
+
+@font-face {
+  font-family: pFont;
+  src: url('./assets/orange\ juice\ 2.0.ttf');
+}
