@@ -10,7 +10,7 @@ function App() {
  return (
     <div>
       <img
-        src="./assets/red-hot.png"
+        src="../src/assets/"
         alt="Red Hot Chili Peppers"
         className="top-right-image"
       />
