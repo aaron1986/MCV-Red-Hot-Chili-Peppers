@@ -9,6 +9,8 @@ cd frontend
 npm i react-router-dom
 
 src/</br>
+  components/</br>
+    Searchbar.jsx</br>
   models/</br>
     musicModel.js</br>
   controllers/</br>
