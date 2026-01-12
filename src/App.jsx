@@ -11,11 +11,7 @@ function App() {
  return (
     <div>
       <img
-<<<<<<< HEAD
         src={redHot}
-=======
-        src="src/assets/red-hot.png"
->>>>>>> ebdfd35c7086de84a5bcaa881e65df73e8e1b487
         alt="Red Hot Chili Peppers"
         className="top-right-image"
       />
