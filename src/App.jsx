@@ -7,19 +7,28 @@ import './App.css'
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
 
-  return (
-     <div>
- <Router>
-          <SearchBar
-        searchTerm={searchTerm}
-        setSearchTerm={setSearchTerm}
+ return (
+    <div>
+      <img
+        src="/src/assets/red-hot.png"
+        alt="Red Hot Chili Peppers"
+        className="top-right-image"
+      />
+
+      <Router>
+        {/* Search bar */}
+        <SearchBar
+          searchTerm={searchTerm}
+          setSearchTerm={setSearchTerm}
         />
-      <Routes>
-        <Route path="/" element={<MusicPage searchTerm={searchTerm} />} />
-      </Routes>
-    </Router>
+
+        {/* Pages */}
+        <Routes>
+          <Route path="/" element={<MusicPage searchTerm={searchTerm} />} />
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
