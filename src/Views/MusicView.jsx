@@ -8,7 +8,7 @@ export default function MusicView({ music, error }) {
       <div className="img-container">
         {music.map(item => (
           <div className="album_page" key={item.id}>
-            <h2>{item.title}</h2>
+            <h2 className="xxx">{item.title}</h2>
 
             {item.cover_img && (
               <img
@@ -18,7 +18,7 @@ export default function MusicView({ music, error }) {
               />
             )}
 
-            <p className="p-text">Release type: {item.release_type.replace("_", " ")}</p>
+            <p>Release type: {item.release_type.replace("_", " ")}</p>
             <p>Released in {item.year_released}</p>
           </div>
         ))}

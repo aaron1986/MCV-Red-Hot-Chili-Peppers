@@ -20,7 +20,7 @@ li {
 
 .img-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   justify-items: center;
 }
 .top-right-image {
@@ -34,13 +34,12 @@ li {
   pointer-events: none; 
 }
 
-.p-text {
-  font-family: pFont;
-  font-size: 25px;
+.xxx {
+  font-family: Titlefont;
+  font-size: 45px;
 }
 
-
 @font-face {
-  font-family: pFont;
-  src: url('./assets/orange\ juice\ 2.0.ttf');
+  font-family: Titlefont;
+  src: url('./assets/riesling.ttf');
 }
