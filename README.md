@@ -35,6 +35,7 @@ git push origin main
 
 
 SQL
+
 CREATE TABLE music ( </br>
     id SERIAL PRIMARY KEY,</br>
     title TEXT NOT NULL,</br>
