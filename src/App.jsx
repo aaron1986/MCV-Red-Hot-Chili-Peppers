@@ -3,6 +3,7 @@ import { useState } from 'react'
 import MusicPage from './pages/MusicPage'
 import SearchBar from './components/Searchbar'
 import './App.css'
+import redHot from './assets/red-hot.png';
 
 function App() {
   const [searchTerm, setSearchTerm] = useState("");
@@ -10,7 +11,7 @@ function App() {
  return (
     <div>
       <img
-        src="/red-hot.png"
+        src={redHot}
         alt="Red Hot Chili Peppers"
         className="top-right-image"
       />
